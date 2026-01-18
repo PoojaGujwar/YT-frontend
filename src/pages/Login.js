@@ -1,6 +1,6 @@
 function Login() {
   const handleLogin = () => {
-    window.location.href = "http://localhost:4000/auth/google";
+    window.location.href = "https://yt-backend-swart.vercel.app/auth/google";
   };
 
   return (
