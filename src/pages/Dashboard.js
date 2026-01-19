@@ -22,6 +22,7 @@ fetchVideo()
       <h2>Your Videos</h2>
       {videos && (
         <>
+        <button >Edit</button>
           <h3>Title: {videos.snippet.title}</h3>
           <p>Description: {videos.snippet.description}</p>
         </>
